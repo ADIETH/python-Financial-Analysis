@@ -47,9 +47,9 @@ print("------------------------------")
 print("Total Votes:" + str(Count))
 print("------------------------------")
 for i in range(len(Unique_Candidate)):
-            print(Unique_Candidate[i] + ": " + str(Vote_Percent[i]) + "% (" + str(Vote_Count[i])+ ")")
+            print(Unique_Candidate[i] + ": " + str(Vote_Percent[i]) +"%  (" + str(Vote_Count[i])+ ")")
 print("-----------------------------")
-print("Winner : " + Winner)
+print("Winner :" + Winner)
 print("-----------------------------")   
 
 

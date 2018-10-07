@@ -17,6 +17,7 @@ Greatest_Increase = ["", 0]
 Greatest_Decrease = ["", 9999999999999999999]
 Total_Revenue = 0
 
+
 # extract the data from CSV file and assign it into a list of Dictionaries
 with open(File_to_Load) as budget_data:
     reader = csv.DictReader(budget_data)
